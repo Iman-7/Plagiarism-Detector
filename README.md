@@ -2,7 +2,7 @@
 
 #### Introduction
 
-	In this project, we are required to detect the plagiarism in a specific pattern from a given
+In this project, we are required to detect the plagiarism in a specific pattern from a given
 document, through different approaches. The input will be a determined number of patterns,
 with existing documents which can include some sentences from the pattern or not. The project
 can execute the following tasks: detecting the plagiarized patterns, highlighting the documents
@@ -15,7 +15,7 @@ percentage.
 
 #### Problem Definition
 
-	The project depends on four main algorithms to detect the string matching between the pattern
+The project depends on four main algorithms to detect the string matching between the pattern
 and the document: Hamming Distance, Rabin Karp Algorithm, KMP Algorithm, and Boyer-Moore
 Algorithm. Generally, we take the input pattern as a set of sentences which are separated by
 dots, while taking the input documents as a set of strings; each string stores one of the
@@ -37,7 +37,6 @@ improve the output and increase the project efficiency.
 #### User Guide
 
 How to use the palagrisim detection utility:
-
 	1. You need to change the paths of the files in both taking_input_text() function and taking_input_pattern() function to the path of the folder that contains your files.
 	2. You need to adjust the value of the global variable num_text_files to the number of text files you want.  
 	3. You need to adjust the value of the global variable num_pat_files to the number of pattern files you want. 
